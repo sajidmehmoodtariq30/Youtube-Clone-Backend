@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for my Youtube Clone",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/server.js"
   },
@@ -24,5 +25,10 @@
   "homepage": "https://github.com/sajidmehmoodtariq30/Youtube-Clone-Backend#readme",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
   }
 }
