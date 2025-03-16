@@ -1,0 +1,28 @@
+{
+  "name": "youtube-clone-backend",
+  "version": "1.0.0",
+  "description": "Backend for my Youtube Clone",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajidmehmoodtariq30/Youtube-Clone-Backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "youtube-clone"
+  ],
+  "author": "Sajid Mehmood Tariq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajidmehmoodtariq30/Youtube-Clone-Backend/issues"
+  },
+  "homepage": "https://github.com/sajidmehmoodtariq30/Youtube-Clone-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
