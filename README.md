@@ -16,3 +16,8 @@ Step 02:- Database Connection
     - create a .env file and write mongodb url in it.
     - In database/index.js write code for database connection
     - In server.js call the function written in database/index.js
+Step 03:- Basic code for Server
+    - npm i cookie-parser cors
+    - In app.js set basic congigurations
+    - Write an async handler that takes a function and applies try catch on it
+    - Write code for custom APi for error and response
