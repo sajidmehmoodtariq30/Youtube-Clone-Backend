@@ -21,3 +21,9 @@ Step 03:- Basic code for Server
     - In app.js set basic congigurations
     - Write an async handler that takes a function and applies try catch on it
     - Write code for custom APi for error and response
+Step 04:-  User & Video Model
+    - Make a file for userModel as well as videoModel
+    - npm i mongoose-aggregate-paginate-v2 and import it in videoModel
+    - npm i bcrypt, jsonwebtoken and import it in userModel
+    - write code that encrypts the password before saving the data.
+    - Use jwt to create tokens
