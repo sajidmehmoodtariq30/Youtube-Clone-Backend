@@ -1,6 +1,9 @@
 import mongoose, { Schema } from "mongoose";
-import bcrypt, { hash } from "bcrypt"; // To Hash the password
+import bcrypt from "bcrypt"; // To Hash the password
 import jwt from "jsonwebtoken"; // To generate tokens
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const userSchema = new Schema(
   {

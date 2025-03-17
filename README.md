@@ -27,3 +27,6 @@ Step 04:-  User & Video Model
     - npm i bcrypt, jsonwebtoken and import it in userModel
     - write code that encrypts the password before saving the data.
     - Use jwt to create tokens
+Step 05:- File uploading
+    - npm i cloudinary multer
+    - Setup cloudinary
