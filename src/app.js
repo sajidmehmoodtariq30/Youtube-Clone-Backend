@@ -19,6 +19,15 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
 
+app.get("/",(req,res)=>{
+  res.send("Api is running");
+})
+
+// routes
+import userRouter from './routes/userRoutes.js';
+
+app.use("/api/v1/users", userRouter)
+
 export default app;
 
 // app.use is used for middlewares and configurations
